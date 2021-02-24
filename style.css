@@ -1,0 +1,158 @@
+body {
+	text-align: center;
+	font-family: Helvetica;
+	background-color: rgba(188,143,143);
+	color: white;
+	margin: 0px 0px 0px 0px;
+}
+.banner {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 200px 60px 300px 60px;
+	margin-bottom: 100px;
+}
+h1 {
+	font-size: 90px;
+	line-height: 90px;
+	letter-spacing: 20px;
+	font-weight: normal;
+	padding-top: 40px;
+	text-shadow: 3px 3px 3px rgba(188,143,143,0.4);
+	margin-bottom: 40px;
+}
+p {
+	font-size: 25px;
+	margin-left: 200px;
+}
+.textCodingApprentice {
+	margin-top: 50px;
+}
+h3 {
+	margin-top: 60px;
+}
+.eu {
+	border: 2px solid white;
+	width: 400px; 
+	margin-right: 200px;
+	margin-left: 60px;
+	padding: 7px 7px 7px 7px;
+}
+.list {
+	list-style: none;
+	padding-left: 0;
+}
+.list li {
+	display: inline;
+}
+.list a {
+	color: white;
+	font-size: 20px;
+}
+.list a:hover {
+	color: black;
+}
+.welcome {
+	background-color: rgba(188,143,143);
+	color: white;
+	border: 2px solid white;
+	font-size: 15px;
+	padding: 5px 8px 5px 8px;
+	position: absolute;
+	margin-top: -25px;
+}
+.inline {
+	display: flex;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  	.container {
+	    width: 700px;
+	    text-align: center;
+	    position: absolute;
+	    margin-left: 0px;
+		margin-right: 0px;
+  	}
+  	.inline {
+		display: inline-grid;
+	}
+	.description {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.textCodingApprentice {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.eu {
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.banner {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  	.container {
+	    width: 500px;
+	    text-align: center;
+	    position: absolute;
+	    margin-left: 0px;
+		margin-right: 0px;
+ 	}
+ 	.inline {
+		display: inline-grid;
+	}
+	.description {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.textCodingApprentice {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.eu {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.banner {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: 0px;
+	}		
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  	.container {
+	    width: 300px;
+	    text-align: center;
+	    position: absolute;
+	    margin-left: 0px;
+		margin-right: 0px;
+  	}
+  	.inline {
+		display: inline-grid;
+	}
+	.description {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.textCodingApprentice {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.eu {
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.banner {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+}
