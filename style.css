@@ -2,7 +2,7 @@ body {
 	text-align: center;
 	font-family: Helvetica;
 	background-color: rgba(246,255,241);
-	color: white;
+	color: rgba(51,51,51);
 	margin: 0px 0px 0px 0px;
 }
 .banner {
@@ -18,7 +18,8 @@ h1 {
 	letter-spacing: 20px;
 	font-weight: normal;
 	padding-top: 40px;
-	text-shadow: 3px 3px 3px rgba(188,143,143,0.4);
+	color: rgba(51,51,51);
+	text-shadow: 3px 3px 3px rgba(51,51,51,0.4);
 	margin-bottom: 40px;
 }
 p {
@@ -32,7 +33,7 @@ h3 {
 	margin-top: 60px;
 }
 .eu {
-	border: 2px solid white;
+	border: 2px solid rgba(51,51,51);
 	width: 400px; 
 	margin-right: 200px;
 	margin-left: 60px;
@@ -46,16 +47,16 @@ h3 {
 	display: inline;
 }
 .list a {
-	color: white;
+	color: rgba(51,51,51);
 	font-size: 20px;
 }
 .list a:hover {
-	color: black;
+	color: rgba(172,172,172);
 }
 .welcome {
-	background-color: rgba(188,143,143);
-	color: white;
-	border: 2px solid white;
+	background-color: rgba(246,255,241);
+	color: rgba(51,51,51);
+	border: 2px solid rgba(51,51,51);
 	font-size: 15px;
 	padding: 5px 8px 5px 8px;
 	position: absolute;
